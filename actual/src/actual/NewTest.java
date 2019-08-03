@@ -22,6 +22,8 @@ public class NewTest {
 	  
 	  System.out.println("In First Method " + Thread.currentThread().getId());
 	  
+	  
+	  System.out.println("In First Method " + Thread.currentThread().getId());
        WebDriver driver =null; 
 	  
 	  String location = "C:\\Program Files\\Java\\browser_drivers\\chrome_driver\\chromedriver.exe";
