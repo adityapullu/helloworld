@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="4" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="actual.NewTest2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- actual.NewTest2 -->
+      <class name="actual.NewTest4">
+        <methods>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- actual.NewTest4 -->
+      <class name="actual.NewTest">
+        <methods>
+          <include name="tes"/>
+        </methods>
+      </class> <!-- actual.NewTest -->
+      <class name="actual.NewTest3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- actual.NewTest3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
